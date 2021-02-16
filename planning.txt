@@ -1,0 +1,9 @@
+What I need?
+
+  - A main component: Home.js
+  - A calculator component: Calculator.js
+      - A display component: Display.js
+      - A component which contains the button set or keypad: ButtonContainer.js
+      - Each button must be a separate component: Button.js
+  - A Context.
+        
