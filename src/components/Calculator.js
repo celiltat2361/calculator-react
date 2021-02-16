@@ -1,9 +1,9 @@
-import { calculator } from '../css/cClculator.module.css';
+import { calculator } from '../css/Calculator.module.css';
 
 function Calculator () {
   return (
     <div className={calculator}>
-      
+      <h1>Calculator component</h1>
     </div>
   )
 }
