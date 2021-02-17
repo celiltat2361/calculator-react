@@ -1,6 +1,6 @@
 import { calculator } from '../css/Calculator.module.css';
-import Display from './Display'
-import ButtonsContainer from './ButtonsContainer';
+import Display from '../components/Display'
+import ButtonsContainer from '../components/ButtonsContainer'
 
 function Calculator () {
   return (

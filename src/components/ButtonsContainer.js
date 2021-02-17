@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { buttons } from "../css/ButtonsContainer.module.css";
+import Button from "./Button"
 
 function ButtonsContainer() {
   const [buttonValues, setButtonsValues] = useState([
@@ -9,7 +10,7 @@ function ButtonsContainer() {
   return (
     <div className={buttons}>
       {buttonValues.map((value) =>(
-        <p key={value}>{value}</p>
+        <Button key={value}/>
       ))}
       
     </div>
