@@ -1,9 +1,11 @@
 import { calculator } from '../css/Calculator.module.css';
+import Display from '../components/Display'
 
 function Calculator () {
   return (
     <div className={calculator}>
-      <h1>Calculator component</h1>
+      <Display />
+      <h1>This is the button container component</h1>
     </div>
   )
 }
